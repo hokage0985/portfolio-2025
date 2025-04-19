@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="IMG/nerdFudido.webp" alt="avatar de Pietro" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Pietro</p>
+        <h1>Eu desenho</h1>
+        <p>Eu costumo desenhar de vez em quando, sempre que sinto que a vontade aparece.
+             Não sou um artista profissional, mas adoro capturar figuras humanas e cenários.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">anatomia</p>
+            <p class="badge bg-secondary">perspectiva</p>
+            <p class="badge bg-secondary">não pinto</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus desenhos</h2>
+        <div class="row">
+            <!-- Desenho 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/desenho1.jpeg" class="card-img-top" alt="Arthur Morgan">
+                    <div class="card-body">
+                        <h5 class="card-title">retrato simples do personagem: "Arthur Morgan"</h5>
+                        <p class="card-text">Este é um retrato feito à mão de Arthur
+                             Morgan, um personagem fictício, com traços marcantes e 
+                             uma expressão séria. Seu olhar intenso, a barba cheia e 
+                             o cabelo desgrenhado transmitem uma presença forte e determinada.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            a descrição</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/desenho2.jpeg" class="card-img-top" alt="trataruga">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenho de perspectiva: cidade na tartaruga</h5>
+                        <p class="card-text">Este é um desenho criativo e imaginativo de uma cidade 
+                            construída sobre as costas de uma tartaruga inspirada na tartaruga
+                             mordedora. A arte usa perspectiva isométrica, dando um efeito
+                              tridimensional único e detalhado à composição.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            a descrição</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/desenho3.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenho anatômico: rosto em perfil
+                        </h5>
+                        <p class="card-text">Este é um retrato feito a lápis de uma mulher em perfil, 
+                            com destaque para o trabalho de luz e sombra, especialmente no cabelo. O 
+                            desenho mostra um treino de anatomia facial com atenção aos detalhes do rosto, 
+                            mãos e acessórios como o boné e o brinco.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            a descrição</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">retrato simples do personagem: "Arthur Morgan"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O desenho é um retrato frontal de Arthur Morgan, feito com lápis em papel, utilizando
+                         traços soltos e bem definidos para destacar os contornos principais. O foco está
+                          claramente no rosto, onde a atenção foi dada ao olhar penetrante e à expressão 
+                          concentrada, sugerindo um personagem sério ou em estado de alerta. A composição
+                           usa linhas de construção para estruturar as proporções do rosto, especialmente
+                            visíveis na região dos olhos e testa.</p>
+                    <p>O cabelo é representado com linhas soltas e variadas, transmitindo volume e uma textura
+                         ondulada ou levemente bagunçada. A barba e os pelos faciais foram desenhados com
+                          traços mais densos e sobrepostos, conferindo profundidade e realismo ao rosto do 
+                          personagem. As sobrancelhas grossas e cerradas reforçam a intensidade da expressão.</p>
+                    <p>Na parte inferior do retrato, é possível observar o início de uma roupa com colarinho aberto
+                         e alguns botões desenhados, sugerindo um traje de época ou de estilo rústico, compatível
+                          com a estética do personagem de Arthur Morgan. O sombreado leve e os traços de esboço ainda
+                           visíveis indicam que o desenho está em uma etapa intermediária, provavelmente parte de um
+                            processo de estudo ou refinamento.</p>
+                    <p>O uso do lápis foi bem controlado, com variação de pressão para diferenciar os volumes do
+                         rosto, cabelo e roupa. As áreas de sombra no pescoço e abaixo do queixo foram trabalhadas 
+                         para criar profundidade. O desenho revela boa compreensão anatômica e habilidade para
+                          transmitir caráter através de expressões faciais, tornando o personagem crível e cheio 
+                          de personalidade.</p>
+                    <img src="IMG/desenho1.jpeg" class="img-fluid w-100"
+                        alt="desenho1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenho de perspectiva: cidade na tartaruga</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O desenho representa uma tartaruga gigante carregando uma cidade inteira em suas costas,
+                         utilizando a perspectiva isométrica para criar profundidade e coerência espacial.
+                          A estrutura do casco serve como base para os edifícios e construções, permitindo 
+                          uma visualização clara das diferentes alturas, volumes e ângulos, característica 
+                          típica da técnica isométrica. Isso demonstra atenção à organização espacial e uma
+                           boa noção de geometria visual.</p>
+                    <p>A tartaruga em si apresenta traços robustos, com uma cabeça de aparência ameaçadora,
+                         claramente inspirada na tartaruga mordedora, notável pelo bico curvo e pelos detalhes
+                          nas escamas. Suas patas e cauda são espessas e firmes, transmitindo o peso que ela
+                           suporta. As linhas usadas na anatomia do animal são mais curvas e orgânicas, 
+                           contrastando com os ângulos retos e estruturas repetitivas das construções.</p>
+                    <p>A cidade sobre o casco mostra diversos elementos arquitetônicos como casas, torres
+                         e possíveis passagens entre os níveis. Há uma variação de tamanhos e formas nos 
+                         prédios, o que traz dinamismo e evita monotonia visual. A escolha de representar
+                          a cidade com traços precisos e um estilo simplificado favorece a leitura clara 
+                          da cena, mesmo com a complexidade do conjunto.</p>
+                    <p>Do ponto de vista técnico, o uso da perspectiva isométrica foi bem aplicado, com
+                         linhas paralelas que mantêm o ângulo constante, sem convergência em ponto de fuga,
+                          o que é típico desse estilo. O desenho mistura fantasia e estrutura de forma eficaz,
+                           demonstrando não só domínio da técnica, mas também uma boa capacidade de
+                            imaginação e composição visual.</p>
+                    <img src="IMG/desenho2.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenho anatômico: rosto em perfil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este desenho apresenta o perfil de uma mulher, realizado com grafite e focado no
+                         estudo anatômico do rosto humano. A composição evidencia uma compreensão das 
+                         proporções faciais, com traços bem definidos para o contorno do rosto, nariz,
+                          boca e olhos fechados, além da mão segurando o brinco.</p>
+                    <p>O destaque do trabalho está na aplicação das técnicas de luz e sombra, especialmente
+                         visível no cabelo e no boné rasgado. As mechas foram desenhadas com linhas longas
+                          e fluídas, variando a pressão do lápis para criar contraste e profundidade.
+                           O sombreado nas áreas do couro cabeludo e nas dobras do tecido da touca 
+                           reforça o volume e o realismo, mostrando domínio do grafite como meio expressivo.</p>
+                    <p>A mão posicionada no alto da cabeça é um ponto técnico desafiador, e foi representada
+                         com bom controle anatômico, com dedos proporcionais e bem encaixados na cena. O brinco
+                          entre os dedos adiciona complexidade à pose e contribui para a narrativa visual da 
+                          imagem. Detalhes como o brinco e a textura do cabelo dão ainda mais riqueza ao desenho.</p>
+                    <p>Do ponto de vista técnico, o uso de valores tonais foi eficaz para separar planos e criar
+                         profundidade. A composição é equilibrada e demonstra foco em observação e prática, 
+                         típica de exercícios de aprimoramento artístico. O esforço no trabalho de contraste
+                          e volume torna o desenho visualmente expressivo e tecnicamente consistente.</p>
+                    <img src="IMG/desenho3.jpeg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
